@@ -11059,3 +11059,52 @@ p {
 .address strong {
   font-size: 1.2rem;
 }
+
+
+
+/*mine*/
+/* الوضع الافتراضي للموبايل - Centered */
+.service-img-wrapper {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.service-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+.service-text
+{
+  margin-left: 80px !important;
+  text-align: justify;
+}
+
+.service-text-wrapper {
+  text-align: justify;
+  margin-bottom: 1rem;
+  margin-left: 0;
+}
+
+/* من أول الشاشات الكبيرة - overlay */
+@media (min-width: 768px) {
+  .service-img-wrapper {
+    position: absolute;
+    top: -60px;
+    left: -60px;
+    margin-bottom: 0;
+  }
+}
+
+
+.navbar-white-text .nav-link,
+.navbar-white-text .navbar-brand,
+.navbar-white-text .dropdown-toggle,
+.navbar-white-text .nav-link.w-100 {
+ color: #fff !important;
+}
+
+
+/* هذا الجزء مهم لتغيير لون الروابط داخل القائمة المنسدلة */
+.navbar-white-text .dropdown-menu .nav-link {
+ color: #fff !important;
+}
